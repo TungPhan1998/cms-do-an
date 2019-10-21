@@ -1,0 +1,41 @@
+.type-121 .navi {
+  border-bottom: solid 2px #dae2e6;
+}
+.type-121 .navi ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.type-121 .navi ul li {
+  float: left;
+}
+.type-121 .navi ul li .des {
+  color: #008acc;
+  font-weight: 800;
+}
+.type-121 .navi ul li .des:hover {
+  color: #008acc;
+  font-weight: 800;
+}
+.type-121 .navi ul li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #777;
+}
+.type-121 .navi ul li a:hover:not(.active) {
+  background-color: #fff;
+  color: #777;
+}
+.type-121 .text ul {
+  list-style: none;
+}
+.type-121 .text ul li::before {
+  margin-right: 12px;
+  color: #333;
+  font-family: porto;
+  font-size: 12px;
+  content: '\e84e';
+}

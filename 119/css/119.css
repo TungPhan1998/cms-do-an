@@ -1,0 +1,54 @@
+.type-119 {
+  padding: 30px 0px;
+  height: 50%;
+  background-color: #f4f4f4;
+  font-family: Open Sans, arial, serif;
+}
+.type-119 .title {
+  text-align: center;
+  font-size: 17px;
+  padding-bottom: 15px;
+  background: none;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  color: #313131;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.type-119 .swiper-container {
+  height: 50%;
+  width: 90%;
+}
+.type-119 .swiper-slide {
+  padding: 10px 0px;
+  background: #fff;
+}
+.type-119 .swiper-slide .right {
+  padding-left: 40px;
+}
+.type-119 .swiper-slide .right h2 a {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration: none;
+}
+.type-119 .swiper-slide .right .btnread {
+  padding: 10px 0px;
+}
+.type-119 .swiper-slide .right .btnread .readmore {
+  display: block;
+  padding: 10px 10px;
+  border-radius: 2px !important;
+  background-color: #2b2b2d;
+  font-family: 'Oswald';
+  font-size: 12px;
+  font-weight: 300;
+  width: 39%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+.type-119 .swiper-slide .right .btnread .readmore:hover {
+  text-decoration: underline;
+}
