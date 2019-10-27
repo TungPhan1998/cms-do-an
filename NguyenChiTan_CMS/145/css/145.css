@@ -1,0 +1,36 @@
+
+body{
+    background: #f6f6f6;
+    
+}
+.a1
+{
+margin-top: 50px;
+}
+.b1
+{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    color: #fff;
+    /* font-family: 'Oswald'; */
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1;
+    text-align: center;}
+
+.item
+{
+    border: 1px black solid;
+    margin: 10px 0;
+    position: relative;
+
+}
+.img
+{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
