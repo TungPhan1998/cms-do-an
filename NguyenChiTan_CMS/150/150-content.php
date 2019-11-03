@@ -1,0 +1,66 @@
+<div class="container b1">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="tittle">
+                    <h3>CONTACT INFOR</h3>
+                </div>
+                <div class="box a3 ">
+                    <ul>
+                        <li>ADDRESS </li>
+                        <li>123 Street Name, City, England</li>
+                        <li>PHONE</li>
+                        <li>(123) 456-7890</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="tittle">
+                            <h3>MY ACCOUNT</h3>
+                        </div>
+                        <div class="box">
+                            <div class="row a1">
+                                <div class="col-md-6 ">
+                                    <ul>
+                                        <li><a href="">About us</a></li>
+                                        <li><a href="">Contact us</a></li>
+                                        <li><a href="">My Account</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6 a2">
+                                    <ul>
+                                        <li><a href="">Order history</a></li>
+                                        <li><a href="">Advanced search</a></li>
+                                        <li><a href="">Login</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="tittle">
+                            <h3>MAIN FEATURES</h3>
+                        </div>
+                        <div class="box">
+                            <div class="row a1">
+                                <div class="col-md-6" >
+                                    <ul>
+                                        <li><a href="">Super Fast Shopify Theme</a></li>
+                                        <li><a href="">1st Fully working Ajax Theme</a></li>
+                                        <li><a href="">10 Unique Homepage Layouts</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6 a2">
+                                    <ul>
+                                        <li><a href="">Powerful Admin Panel</a></li>
+                                        <li><a href="">Mobile & Retina Optimized</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

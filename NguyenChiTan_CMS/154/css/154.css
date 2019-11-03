@@ -1,24 +1,76 @@
-body{
-    margin-top: 50px;
-    background: #f6f6f6;
+body {
+  margin-top: 50px;
+  background: #f6f6f6;
 }
-.product
-{
-    font-size: 15px;
-    background: white;
-    padding: 20px;
+.product {
+  font-size: 15px;
+  background: white;
+  padding: 20px;
 }
-
-.sizes-table > thead 
-{
-    border-bottom-style: solid;;
-
+.sizes-table thead {
+  border-bottom-style: solid;
 }
-.sizes-table >tbody
-{
-    padding: 20px;
+.sizes-table thead tr th {
+  padding-left: 20px;
 }
-.sizes-table tfoot
-{
-    border-top-style: solid;
+.sizes-table tbody tr td {
+  padding: 20px 15px;
+}
+.sizes-table tbody tr td .img {
+  width: 200px;
+  height: 200px;
+}
+.sizes-table tbody tr td a {
+  color: black;
+}
+.sizes-table tbody tr td form input {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.sizes-table tfoot {
+  border-top-style: solid;
+}
+.sizes-table tfoot tr td {
+  padding: 20px;
+}
+.sizes-table tfoot tr td .button1 {
+  border: 1px black solid;
+  background: #3275B2;
+  color: white;
+  padding: 10px;
+}
+.sizes-table tfoot tr td .button2 {
+  border: 1px black solid;
+  background: #3275B2;
+  color: white;
+  padding: 10px;
+  float: right;
+}
+.menu .toltal {
+  border: 1px black solid;
+}
+.menu .toltal .table1 {
+  background: white;
+}
+.menu .toltal .table1 .table2 tbody .price1 {
+  padding-left: 100px;
+}
+.menu .toltal .table1 .table2 tfoot {
+  font-size: 15px;
+  border-top-style: solid;
+}
+.menu .toltal .table1 .table2 tfoot .price2 {
+  padding-left: 95px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.menu h2 {
+  font-size: 15px;
+  border: 1px black solid;
+  padding: 10px;
+}
+.menu h3 {
+  padding: 5px;
+  border-bottom: black solid 1px;
 }
