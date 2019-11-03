@@ -22,9 +22,9 @@ $less->compileFile('less/132.less', 'css/132.css');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="<?php echo $url_path ?>/css/132.css">
-    <link rel="stylesheet" href="<?php echo $url_path ?>/swiper/package/css/swiper.min.css">
+    <link rel="stylesheet" href="<?php echo $url_path ?>/css/swiper.min.css">
     <!-- Swiper JS -->
-  <script src="public/swiper/package/js/swiper.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
     <title>132</title>
 
     <?php
