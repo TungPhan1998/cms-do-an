@@ -1,0 +1,82 @@
+/*---------------------
+	Font-family
+---------------------*/
+body{
+	font-family: 'Roboto', sans-serif;
+	line-height:1.6;
+}
+h1,h2,h3,h4,h5,h6{
+	    font-family: 'Prata', serif;
+}
+/*---------------------
+	Border color
+---------------------*/
+.block-title h2{
+	font-weight:700;
+	text-transform:capitalize;
+	font-size:3rem;
+}
+.page-title .card{
+	height:30rem;
+}
+.page-title h1{
+	text-transform:capitalize;
+	font-size:3.5rem;
+	color:#fff;
+}
+header .btn{
+	background:#333;
+}
+.btn{
+	border-radius:.3rem;
+	background:none;
+	background:#d90000;
+	color:#fff;
+}
+.image-zoom + .card-img-overlay{
+	cursor:pointer;
+}
+.card-subtitle{
+	font-size:2.5rem;
+	font-weight:400;
+	margin-top:0;
+	margin-bottom:1rem;
+	font-family: 'Playball', cursive;
+	color:#d90000;
+}
+.title-menu{
+	background:#f5f5f5;
+	margin-bottom:3.5rem;
+}
+.title-menu h3{
+	padding:.8rem 1.5rem;
+	background:#d90000;
+	color:#fff;
+	margin:0;
+	display:inline-block;
+	font-size:1.8rem!important;
+}
+.btn:hover{
+	background:#333;
+	color:#fff!important;
+}
+.btn-border-f{
+	border:2px solid #fff;
+	color:#fff;
+	background:none!important;
+}
+.form-contact .form-control{
+	border:2px solid #333;
+}
+.menu-nav ul.menu li a{
+	font-weight:600!important;
+}
+h2{
+	font-size:4rem;
+}
+.main-color{
+	color:#d90000!important;
+}
+.main-bg{
+	background:#d90000!important;
+}

@@ -1,0 +1,39 @@
+/*
+Theme Name: Nhóm C
+Author: Nhóm C
+Description: WordPress Bootstrap 3.0.0 Custom Theme
+Version: 1.0
+License: GNU General Public License v2 or later
+Tags: bootstrap
+Text Domain: wpbootstrap
+*/
+body {
+ font-family: Arial, sans-serif;
+ font-size: 16px;
+ color: #545454;}
+a:link, a:visited {
+ color: #4285f4;}
+p {
+ line-height: 1.7em;}
+div.container {
+ max-width: 960px;
+ margin: 0 auto;}
+article.post {
+ border-bottom: 4px dashed #ecf0f1;}
+article.post:last-of-type {
+ border-bottom: none;}
+.site-header {
+ border-bottom: 3px solid #ecf0f1;}
+.site-footer {
+ border-top: 3px solid #ecf0f1;}
+ footer{
+ 	text-align: center;
+ }
+.logo1 a{
+	height: 50px;
+	width: 150px;
+	background: url(/1.ico) no-repeat;
+}
+.logo1 a:hover {
+	background: url(/1.ico) no-repeat !important;
+}

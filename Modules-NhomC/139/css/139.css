@@ -1,0 +1,23 @@
+.menu-left ul {
+  margin: 0;
+  padding: 0;
+}
+.menu-left ul li {
+  list-style: none;
+}
+.menu-left ul li a {
+  display: block;
+  text-decoration: none;
+  line-height: 32px;
+  background: url(../images/icon-plus.png) no-repeat 125px;
+  height: 40px;
+}
+.menu-left h3 {
+  background: #333 url(../images/icon-menu1.png) no-repeat;
+  color: #f1f1f1;
+  height: 40px;
+  margin-top: 0;
+  font-size: 14px;
+  line-height: 40px;
+  text-indent: 30px;
+}

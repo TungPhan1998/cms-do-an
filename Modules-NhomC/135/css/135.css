@@ -1,0 +1,169 @@
+.type-135 {
+  padding: 3% 4%;
+  background-color: #ffffff;
+  font-family: Open Sans, arial, serif;
+}
+.type-135 .swiper-container {
+  text-align: center;
+}
+.type-135 .swiper-container .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+.type-135 .swiper-container .swiper-slide .title {
+  text-align: center;
+  padding: 10% 0;
+}
+.type-135 .swiper-container .swiper-slide .price {
+  font-size: 18px;
+  padding: 3% 0;
+}
+.type-135 .swiper-container .swiper-slide .rating {
+  font-size: 11px;
+}
+.type-135 .swiper-container .swiper-slide .e {
+  text-align: center;
+}
+.type-135 .swiper-container .swiper-slide .e input {
+  display: none;
+}
+.type-135 .swiper-container .swiper-slide .e label {
+  color: #444;
+  transition: all .2s;
+}
+.type-135 .swiper-container .swiper-slide .e input:checked~label:before {
+  content: '\f005';
+  color: #777;
+  transition: all .25s;
+}
+.type-135 .swiper-container .swiper-slide .e input.star-1:checked~label.star:before {
+  color: #777;
+}
+.type-135 .swiper-container .swiper-slide .e input.star-5:checked~label.star:before {
+  color: #777;
+  text-shadow: 0 0 20px #777;
+}
+.type-135 .swiper-container .swiper-slide .e label.star:before {
+  content: '\f006';
+  font-family: FontAwesome;
+}
+.type-135 .swiper-container .swiper-slide .a {
+  text-align: center;
+}
+.type-135 .swiper-container .swiper-slide .a input {
+  display: none;
+}
+.type-135 .swiper-container .swiper-slide .a label {
+  color: #444;
+  transition: all .2s;
+}
+.type-135 .swiper-container .swiper-slide .a input:checked~label:before {
+  content: '\f005';
+  color: #777;
+  transition: all .25s;
+}
+.type-135 .swiper-container .swiper-slide .a input.star-1:checked~label.star:before {
+  color: #777;
+}
+.type-135 .swiper-container .swiper-slide .a input.star-5:checked~label.star:before {
+  color: #777;
+  text-shadow: 0 0 20px #777;
+}
+.type-135 .swiper-container .swiper-slide .a label.star:before {
+  content: '\f006';
+  font-family: FontAwesome;
+}
+.type-135 .swiper-container .swiper-slide .b {
+  text-align: center;
+}
+.type-135 .swiper-container .swiper-slide .b input {
+  display: none;
+}
+.type-135 .swiper-container .swiper-slide .b label {
+  color: #444;
+  transition: all .2s;
+}
+.type-135 .swiper-container .swiper-slide .b input:checked~label:before {
+  content: '\f005';
+  color: #777;
+  transition: all .25s;
+}
+.type-135 .swiper-container .swiper-slide .b input.star-1:checked~label.star:before {
+  color: #777;
+}
+.type-135 .swiper-container .swiper-slide .b input.star-5:checked~label.star:before {
+  color: #777;
+  text-shadow: 0 0 20px #777;
+}
+.type-135 .swiper-container .swiper-slide .b label.star:before {
+  content: '\f006';
+  font-family: FontAwesome;
+}
+.type-135 .swiper-container .swiper-slide .c {
+  text-align: center;
+}
+.type-135 .swiper-container .swiper-slide .c input {
+  display: none;
+}
+.type-135 .swiper-container .swiper-slide .c label {
+  color: #444;
+  transition: all .2s;
+}
+.type-135 .swiper-container .swiper-slide .c input:checked~label:before {
+  content: '\f005';
+  color: #777;
+  transition: all .25s;
+}
+.type-135 .swiper-container .swiper-slide .c input.star-1:checked~label.star:before {
+  color: #777;
+}
+.type-135 .swiper-container .swiper-slide .c input.star-5:checked~label.star:before {
+  color: #777;
+  text-shadow: 0 0 20px #777;
+}
+.type-135 .swiper-container .swiper-slide .c label.star:before {
+  content: '\f006';
+  font-family: FontAwesome;
+}
+.type-135 .swiper-container .swiper-slide .d {
+  text-align: center;
+}
+.type-135 .swiper-container .swiper-slide .d input {
+  display: none;
+}
+.type-135 .swiper-container .swiper-slide .d label {
+  color: #444;
+  transition: all .2s;
+}
+.type-135 .swiper-container .swiper-slide .d input:checked~label:before {
+  content: '\f005';
+  color: #777;
+  transition: all .25s;
+}
+.type-135 .swiper-container .swiper-slide .d input.star-1:checked~label.star:before {
+  color: #777;
+}
+.type-135 .swiper-container .swiper-slide .d input.star-5:checked~label.star:before {
+  color: #777;
+  text-shadow: 0 0 20px #777;
+}
+.type-135 .swiper-container .swiper-slide .d label.star:before {
+  content: '\f006';
+  font-family: FontAwesome;
+}
+.type-135 .swiper-container .swiper-slide .addcart {
+  padding: 5% 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Open Sans', 'arial', 'serif';
+}
+.type-135 .swiper-container .swiper-slide .addcart a {
+  padding: 5% 5%;
+  text-decoration: none;
+  color: #6f6e6b;
+  background: #f4f4f4;
+}
+.type-135 .swiper-container .swiper-slide .addcart a:hover {
+  background: #008acc;
+  color: #ffffff;
+}
