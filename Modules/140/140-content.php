@@ -39,8 +39,8 @@
 
         <div class="row">
             <div class="col-md-4">
-                <span class="roll1"></span>
-                <a href=""><img class="img-fluid" src="./images/product-101-grey_400x_crop_center.jpg" alt=""></a>
+                <span class="roll1"><a href=""></span>
+                <img class="img-fluid" src="./images/product-101-grey_400x_crop_center.jpg" alt=""></a>
 
                 <div class="item">
                     Classic Crew Neck Sweatshirt<br>
