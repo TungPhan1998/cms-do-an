@@ -1,0 +1,36 @@
+.account-login .h-login {
+  font-size: 20px;
+  color: #1b65a9;
+}
+.new-users h2 {
+  font-size: 18px;
+}
+.login_content {
+  display: inline-block;
+  width: 100%;
+  padding: 35px 25px;
+  border: 1px solid #ececec;
+  border-top: 4px solid #1b65a9;
+  background: #fff;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.08);
+  color: #777;
+}
+.page-title h2 {
+  font-size: 18px;
+}
+.form-box .content ul label em {
+  color: red;
+}
+ul li {
+  list-style: none;
+}
+.login-button button {
+  background: #1b65a9;
+  color: #fff;
+  padding: 8px 10px;
+}
+.login-button .buttons-set input {
+  background: #1b65a9;
+  color: #fff;
+  padding: 8px 10px;
+}

@@ -1,0 +1,51 @@
+.type-147 {
+  padding-bottom: 2%;
+  background-color: #f7f7f7;
+  font-family: 'Open Sans', arial, serif;
+}
+.type-147 .container .blog {
+  width: 100%;
+  height: 100%;
+}
+.type-147 .container .date {
+  padding-top: 50%;
+  text-align: center;
+}
+.type-147 .container .date .day {
+  padding: 20%;
+  border: 1px solid #999;
+  background: #f4f4f4;
+  color: #000;
+  font-size: 20px;
+}
+.type-147 .container .date .month {
+  margin-top: -22%;
+  padding: 10% 0;
+  border: 1px solid #007acc;
+  background: #007acc;
+  color: #fff;
+}
+.type-147 .container .top {
+  padding-bottom: 5%;
+}
+.type-147 .container .top h3 {
+  color: #007acc;
+}
+.type-147 .container .top p {
+  color: #777;
+}
+.type-147 .container .bottom {
+  color: #777;
+  padding: 2% 0;
+  border-bottom: 1px solid #999;
+  border-top: 1px solid #999;
+}
+.type-147 .container .bottom a {
+  text-decoration: none;
+  color: #777;
+  float: right;
+}
+.type-147 .container .bottom a:hover {
+  text-decoration: none;
+  color: #777;
+}
