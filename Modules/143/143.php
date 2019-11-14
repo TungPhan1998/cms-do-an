@@ -21,10 +21,10 @@ $less->compileFile('less/143.less', 'css/143.css');
         <title>Module 143</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/143.css" rel="stylesheet" type="text/css" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/143.css" rel="stylesheet" type="text/css" />
         <!-- Link Swiper's CSS -->
-        <script src="<?php echo $url_path ?>/js/143.js"></script>
+        <script src="js/143.js"></script>
         
         <?php
         if (!class_exists('lessc')) {

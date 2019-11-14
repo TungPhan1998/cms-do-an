@@ -1,0 +1,3 @@
+b1. vào cài đặt theme
+b2. active theme
+b3. cài đặt plugin WP Swiper

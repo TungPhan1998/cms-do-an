@@ -21,8 +21,8 @@ $less->compileFile('less/145.less', 'css/145.css');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="<?php echo $url_path ?>/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo $url_path ?>/css/145.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/145.css">
     <title>145</title>
     <?php
         if (!class_exists('lessc')) {

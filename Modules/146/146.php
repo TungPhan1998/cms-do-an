@@ -21,9 +21,9 @@ $less->compileFile('less/146.less', 'css/146.css');
         <title>Module 146</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/146.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/146.css" rel="stylesheet" type="text/css" />
+        <link href="css/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
         <?php

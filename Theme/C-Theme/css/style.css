@@ -1,0 +1,567 @@
+/*
+Theme Name: Boostrap Starter Theme
+Theme URI: https://www.lyrathemes.com/bootstrap-wordpress-theme-tutorial/
+Author: Abby
+Author URI: https://www.lyrathemes.com
+Description: A basic theme using the Bootstrap framework.
+Version: 1.0
+Text Domain: bootstrapstarter
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800");
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
+html {
+    font-size: 62.5%;
+    font-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #7a7d82;
+    font: normal 400 1.4rem / 1.8 "Open Sans", sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden
+}
+
+::-moz-selection {
+    background-color: #282d3b;
+    color: #fff
+}
+
+::selection {
+    background-color: #282d3b;
+    color: #fff
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+
+h2,
+.h3 {
+    margin-bottom: 1.8rem;
+    color: #2b2b2d;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.1
+}
+
+h2 {
+    font-size: 2.2rem
+}
+
+.h3 {
+    font-size: 1.7rem
+}
+
+a {
+    transition: all .3s;
+    color: #282d3b;
+    text-decoration: none
+}
+
+a:hover,
+a:focus {
+    color: #282d3b;
+    text-decoration: underline
+}
+
+.title {
+    text-transform: uppercase
+}
+
+@media screen and (min-width: 768px) {
+    h2 {
+        font-size: 2.4rem
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1200px
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 100%
+    }
+}
+
+.product {
+    width: 225px;
+    position: relative;
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.3rem;
+    transition: all .3s;
+    background-color: #fff
+}
+
+.product .add-wishlist {
+    right: -45px
+}
+
+.product .add-compare {
+    left: -45px
+}
+
+.product .add-wishlist,
+.product .add-compare {
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1
+}
+
+.product:not(.product-sm):hover {
+    box-shadow: 0 14px 38px rgba(0, 0, 0, 0.1)
+}
+
+.product-image-container {
+    display: block;
+    position: relative;
+    margin-bottom: 1.6rem;
+    background-color: #fafafa
+}
+
+.product-image {
+    display: block
+}
+
+.product-image img {
+    display: block;
+    width: 100%;
+    height: auto
+}
+
+.btn-quickview {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 1.2rem 1.15rem;
+    transition: all .25s;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font: 400 1.2rem/1 "Open Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden
+}
+
+.btn-quickview::before {
+    margin: 0 .5rem 0 0;
+    font-family: 'porto';
+    content: '\e892'
+}
+
+.product-image-container .btn-quickview {
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.product:hover .btn-quickview {
+    opacity: 1;
+    visibility: visible
+}
+
+.btn-quickview:hover,
+.btn-quickview:focus,
+.product:hover .btn-quickview:hover,
+.product:hover .btn-quickview:focus {
+    color: #fff;
+    text-decoration: none;
+    opacity: .9
+}
+
+.product-details {
+    text-align: center
+}
+
+.product-title {
+    margin-bottom: .8rem;
+    color: #5b5b5f;
+    font: 400 1.4rem/1.25 "Open Sans", sans-serif;
+    letter-spacing: .01rem
+}
+
+.product-title a {
+    color: inherit
+}
+
+.price-box {
+    margin-bottom: 1.8rem;
+    color: #2b2b2d;
+    font: 400 0/1 "Oswald", sans-serif;
+    font-size: 0
+}
+
+.product-price {
+    font-size: 1.8rem
+}
+
+.product-action {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.paction {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    position: relative;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-width: 40px;
+    height: 40px;
+    transition: all .3s;
+    background-color: #f4f4f4;
+    color: #302e2a;
+    font-family: 'porto';
+    font-size: 1.4rem;
+    text-align: center;
+    text-decoration: none
+}
+
+.paction span {
+    display: none;
+    padding-right: .1rem;
+    padding-left: .4rem;
+    font-size: 1.2rem;
+    letter-spacing: .02rem
+}
+
+.paction+.paction {
+    margin-left: .5rem
+}
+
+.paction:hover,
+.paction:focus {
+    background-color: #08c;
+    color: #fff;
+    text-decoration: none
+}
+
+.add-cart {
+    min-width: 115px;
+    padding: .85rem .5rem;
+    transition-duration: 0s;
+    color: #6f6e6b;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    z-index: 2
+}
+
+.add-cart::before {
+    display: inline-block;
+    margin-top: 1px;
+    font-family: 'porto';
+    font-size: 1.7rem;
+    line-height: 1;
+    content: '\e87f'
+}
+
+.add-cart span {
+    display: inline
+}
+
+.add-cart:hover,
+.add-cart:focus {
+    border-color: #2b2b2c;
+    background-color: #2b2b2c;
+    color: #fff
+}
+
+.add-wishlist::before {
+    content: '\e88a'
+}
+
+.add-compare::before {
+    content: '\e810'
+}
+
+.product:hover .paction.add-wishlist,
+.product:hover .paction.add-compare {
+    opacity: 1;
+    visibility: visible
+}
+
+.product:hover .paction.add-wishlist {
+    right: 0
+}
+
+.product:hover .paction.add-compare {
+    left: 0
+}
+
+.product:hover .paction.add-cart {
+    border-color: #2b2b2c;
+    background-color: #2b2b2c;
+    color: #fff
+}
+
+.ratings-container {
+    margin-bottom: 1.2rem;
+    line-height: 1
+}
+
+.ratings-container .product-ratings,
+.ratings-container .ratings {
+    display: inline-block;
+    position: relative;
+    font-family: 'porto';
+    font-size: 1.2rem;
+    letter-spacing: .1em;
+    line-height: 1
+}
+
+.ratings-container .product-ratings {
+    height: 12px
+}
+
+.ratings-container .product-ratings::before {
+    color: #b7b6b4;
+    content: '\e852 ' '\e852 ' '\e852 ' '\e852 ' '\e852'
+}
+
+.ratings-container .ratings {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.ratings-container .ratings::before {
+    color: #2b2b2c;
+    content: '\e852 ' '\e852 ' '\e852 ' '\e852 ' '\e852'
+}
+
+@media screen and (max-width: 575px) {
+    .product .add-wishlist,
+    .product .add-compare {
+        display: none
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .product {
+        margin-bottom: 3.5rem
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .product {
+        margin-bottom: 4.3rem
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1280px) {
+    .product .add-wishlist,
+    .product .add-compare {
+        min-width: 37px
+    }
+}
+
+@font-face {
+    font-family: 'porto';
+    src: url("../fonts/porto.eot?64334846");
+    src: url("../fonts/porto.eot?64334846#iefix") format("embedded-opentype"), url("../fonts/porto.woff2?64334846") format("woff2"), url("../fonts/porto.woff?64334846") format("woff"), url("../fonts/porto.ttf?64334846") format("truetype"), url("../fonts/porto.svg?64334846#porto") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active {
+    border-color: #005e8c;
+    background-color: #069;
+    color: #fff
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active,
+.btn-secondary:not(:disabled):not(.disabled).active {
+    border-color: #0e1015;
+    background-color: #13161d;
+    color: #fff
+}
+
+.btn-dark:not(:disabled):not(.disabled):active,
+.btn-dark:not(:disabled):not(.disabled).active {
+    border-color: #333;
+    background-color: #333;
+    color: #fff
+}
+
+.btn-outline:not(:disabled):not(.disabled):active,
+.btn-outline:not(:disabled):not(.disabled).active {
+    border-color: #08c;
+    background-color: transparent;
+    color: #282d3b
+}
+
+.btn-outline-secondary:not(:disabled):not(.disabled):active,
+.btn-outline-secondary:not(:disabled):not(.disabled).active {
+    border-color: #08c;
+    background-color: #08c;
+    color: #fff
+}
+
+.btn-outline-dark:not(:disabled):not(.disabled):active,
+.btn-outline-dark:not(:disabled):not(.disabled).active {
+    border-color: #08c;
+    background-color: #08c;
+    color: #fff
+}
+
+a:focus {
+    outline: none
+}
+
+.toolbox .form-control:not(:focus) {
+    border-color: #e4e4e4
+}
+
+.featured-products-section {
+    padding-top: 5.2rem;
+    padding-bottom: 5rem;
+    background-color: #f7f7f7
+}
+
+.featured-products-section.carousel-section .container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow: hidden
+}
+
+@media screen and (min-width: 1280px) {
+    .featured-products-section.carousel-section .container {
+        max-width: 1190px
+    }
+}
+
+.carousel-section .container {
+    overflow: hidden
+}
+
+.product-single-qty .bootstrap-touchspin .form-control:not(:focus) {
+    border-color: #dae2e6
+}
+
+.single-qty-wrapper .product-single-qty .bootstrap-touchspin .form-control:not(:focus) {
+    border-color: #dae2e6
+}
+
+.bootstrap-touchspin .form-control:not(:focus) {
+    border-color: #ccc
+}
+
+
+/*! nouislider - 11.1.0 - 2018-04-02 11:18:13 */
+
+.mb-4 {
+    margin-bottom: 4rem !important
+}
+
+.swiper-slide {
+    width: 225.2px;
+    margin-right: 11px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-pagination {
+    margin-left: 40%;
+}
+
+.container {
+    text-align: center;
+    margin-left: 10%;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-button-next {
+    margin-right: 8%;
+    margin-top: -4%;
+}
+
+.swiper-button-prev {
+    margin-left: 8%;
+    margin-top: -4%;
+}
+
+div#wpadminbar {
+    position: absolute !important;
+}

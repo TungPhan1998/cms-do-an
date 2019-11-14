@@ -1,0 +1,37 @@
+.ft-container {
+  background: #f6f6f6;
+  margin: 20px 80px 0;
+  padding: 20px 20px;
+}
+.form-input {
+  margin-top: 20px;
+  margin-left: -115px;
+}
+.ip-email {
+  border-radius: 30px 0 0 30px;
+  padding: 8px 5px;
+  border: none;
+}
+.bt-sub {
+  border-radius: 0 30px 30px 0;
+  margin-left: -2px;
+  padding: 8px 5px;
+  font-weight: bold;
+  background: #fff;
+  border: none;
+}
+.bor-drop {
+  margin-left: -2px;
+  background: #fff;
+  border: none;
+}
+.center-phone {
+  margin-top: 10px;
+  padding-left: 100px;
+  color: #787d7f;
+  display: block;
+}
+.icon-card {
+  border-left: 1px solid #000;
+  margin-top: 10px;
+}

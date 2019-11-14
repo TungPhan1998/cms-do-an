@@ -21,10 +21,10 @@ $less->compileFile('less/153.less', 'css/153.css');
         <title>Module 153</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/153.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
-        <script src="/libs/jquery-3.4.1/jquery.min.js"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/153.css" rel="stylesheet" type="text/css" />
+        <link href="css/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
+        <script src="/js/jquery-3.4.1/jquery.min.js"></script>
         <script src="/js/bootstrap-3.4.0/bootstrap.min.js"></script>      
         <?php
         if (!class_exists('lessc')) {

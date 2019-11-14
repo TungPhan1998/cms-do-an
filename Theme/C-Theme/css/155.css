@@ -1,0 +1,223 @@
+.type-155 {
+  padding: 3% 0;
+  background: #fafafa;
+}
+.type-155 .left .logo a {
+  color: #333;
+  text-decoration: none;
+  font-size: 30px;
+}
+.type-155 .left .menu a {
+  cursor: text;
+  padding-right: 5%;
+  color: #000;
+  text-decoration: none;
+}
+.type-155 .left .menu .infor {
+  font-weight: bold;
+}
+.type-155 .left .contact h4 {
+  color: #333;
+}
+.type-155 .left .contact p {
+  font-size: 14px;
+  float: right;
+}
+.type-155 .left .email input {
+  padding: 2% 0;
+  color: #333333;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: inherit;
+}
+.type-155 .left .keepme {
+  padding-top: 2%;
+}
+.type-155 .left .keepme label {
+  padding-left: 1%;
+  font-weight: normal !important;
+}
+.type-155 .left .name {
+  padding-bottom: 2%;
+}
+.type-155 .left .name #firstname {
+  padding: 2% 0;
+  color: #333333;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  line-height: inherit;
+  float: left;
+}
+.type-155 .left .name #lastname {
+  padding: 2% 0;
+  padding-right: 2%;
+  color: #333333;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  line-height: inherit;
+}
+.type-155 .left .address {
+  padding-bottom: 2%;
+}
+.type-155 .left .address #address {
+  padding: 2% 0;
+  color: #333333;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: inherit;
+}
+.type-155 .left .apartment {
+  padding-bottom: 2%;
+}
+.type-155 .left .apartment #apartment {
+  padding: 2% 0;
+  color: #333333;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: inherit;
+}
+.type-155 .left .city {
+  padding-bottom: 2%;
+}
+.type-155 .left .city #city {
+  padding: 2% 0;
+  color: #333333;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: inherit;
+}
+.type-155 .left .country-postal .country {
+  color: #333333;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  padding-right: 2%;
+  float: left;
+  padding: 5.5px 0;
+}
+.type-155 .left .country-postal .country label {
+  border: none;
+  font-weight: normal !important;
+  padding-left: 1%;
+  color: #757575;
+}
+.type-155 .left .country-postal .country #country {
+  border: none;
+  margin-left: 1%;
+  padding-right: 2%;
+  margin-top: 3%;
+}
+.type-155 .left .country-postal .postal #postal-code {
+  padding: 2% 0;
+  padding-right: 2%;
+  color: #333333;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  line-height: inherit;
+}
+.type-155 .left .save {
+  padding-top: 2%;
+}
+.type-155 .left .save label {
+  padding-left: 1%;
+  font-weight: normal !important;
+}
+.type-155 .left .continue_button {
+  border-bottom: 1px solid #737373;
+  padding-top: 5%;
+  padding-bottom: 7%;
+}
+.type-155 .left .continue_button button {
+  padding: 3% 3%;
+  background: #00608e;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #00608e;
+  border-radius: 5px;
+  margin-left: 72%;
+}
+.type-155 .left .footer {
+  padding-top: 2%;
+  font-size: 0.85714em;
+  color: #737373;
+}
+.type-155 .right .product {
+  padding-bottom: 5%;
+  border-bottom: 1px solid #e1e1e1;
+}
+.type-155 .right .product span {
+  color: #323232;
+  font-weight: 600;
+}
+.type-155 .right .product .price {
+  float: right;
+  margin: 6% 0;
+}
+.type-155 .right .detailprice {
+  padding: 4% 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+.type-155 .right .detailprice .subtotal .price {
+  color: #323232;
+  font-weight: 600;
+  float: right;
+}
+.type-155 .right .detailprice .shipping {
+  padding: 2% 0;
+}
+.type-155 .right .detailprice .shipping .text {
+  float: right;
+}
+.type-155 .right .detailprice .taxes .price {
+  color: #323232;
+  font-weight: 600;
+  float: right;
+}
+.type-155 .right .total {
+  padding: 3% 0;
+}
+.type-155 .right .total .type {
+  font-size: 1.14286em;
+}
+.type-155 .right .total .price {
+  color: #323232;
+  font-weight: 600;
+  font-size: 1.71429em;
+  float: right;
+}
+.type-155 .right .total .price .usd {
+  color: #717171;
+  font-size: 14px;
+  font-weight: normal;
+}

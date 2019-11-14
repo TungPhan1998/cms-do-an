@@ -21,8 +21,8 @@ $less->compileFile('less/147.less', 'css/147.css');
         <title>Module 147</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/147.css" rel="stylesheet" type="text/css" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/147.css" rel="stylesheet" type="text/css" />
         
         <?php
         if (!class_exists('lessc')) {

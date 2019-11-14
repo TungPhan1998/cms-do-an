@@ -1,0 +1,15 @@
+body {
+  background: yellow;
+}
+.swiper-container .swiper-wrapper .hinhao1:hover {
+  display: none;
+}
+.swiper-container .swiper-wrapper .hinhao1 {
+  position: relative;
+}
+h1:hover {
+  background: red;
+}
+.swiper-container .swiper-wrapper .hinhao2 {
+  position: absolute;
+}
